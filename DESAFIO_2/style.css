@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #292524;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #4A4A4A;
+    
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-weight: bold;
+    color: #292524;
+    text-align: left;
+    padding: 2px;
+
+}
+
+.tituloscampos {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #4A4A4A;
+
+}
+
+.voltar {
+    text-decoration: none;
+    color: #2135A6;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.voltar::before {
+    content: "←";
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D6D3D1;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.upload {
+    width: 100%;
+    padding: 15px;
+    border: 2px dashed #D6D3D1;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upload:hover {
+    background: #FEE7D6;
+}
+
+
+.trilha {
+    border: 2px solid #ccc;
+
+    width: 256;
+    height: 120;
+    gap: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    
+
+    text-align: center;
+}
+
+.trilha img {
+    width: 40px;
+    height: 40px;
+    gap: 10px;  
+}
+
+.termos {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.termos a {
+    color: #ff6600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 19px;
+    height: 19px;
+    top: 2.5px;
+    left: 2.5px;
+    border-width: 1.5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cancelar {
+    width: 123px;
+    height: 48px;
+    min-width: 120px;
+    gap: 8px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    background-color: #fefbf9;
+    color: #E43A12;
+    border-color: #E43A12;
+}
+
+.inscricao {
+    width: 169px;
+    height: 48px;
+    min-width: 120px;
+    gap: 8px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+
+    background-color: #F3541C;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
